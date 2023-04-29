@@ -4,11 +4,12 @@
 Общая настройка для запуска тестов :
 
 В командной строке прописать :
-- pip install poetry
 
-- poetry lock
+1.  pip install poetry
 
-- poetry install 
+2.  poetry lock
+
+3.  poetry install 
 
 Для запуска тестов из командной строки необходимо прописать : 
 
