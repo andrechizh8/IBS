@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ibs-api"
+version = "1.0"
+description = "api testing for ibs"
+authors = ["andrechizh8"]
+readme = "README.md"
+packages = [{include = "ibs_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.9.0"
+pytest = "^7.3.1"
+requests = "^2.29.0"
+voluptuous = "^0.13.1"
+pytest-voluptuous = "^1.2.0"
+allure-pytest = "^2.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
